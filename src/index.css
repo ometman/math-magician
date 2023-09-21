@@ -94,33 +94,22 @@ ul {
 
 .display {
   margin: 0;
-  width: 98%;
-  height: 80px;
+  height: auto;
   background-color: #b6b6b6;
   border: none;
   color: #000;
   text-align: right;
 }
 
-.display-total {
+.display-total,
+.calc-input {
   margin: 0;
-  padding-top: 5%;
   padding-right: 2%;
-  height: 100%;
+  width: 98%;
+  height: 80px;
   background-color: #b6b6b6;
   border: none;
   font-size: 1.5rem;
-  text-align: right;
-}
-
-.calc-input {
-  margin: 0;
-  padding-top: 6px;
-  padding-right: 5px;
-  width: auto;
-  background-color: #b6b6b6;
-  border: none;
-  font-size: 1.2rem;
   text-align: right;
 }
 
