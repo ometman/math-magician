@@ -25,7 +25,7 @@ function Calculator() {
   });
 
   const handleClick = (e) => {
-    const inputValue = e.target.value;
+    const inputValue = e.target.innerText;
     setValObj(Calculate(valObj, inputValue));
   };
 
