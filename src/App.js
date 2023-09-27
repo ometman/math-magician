@@ -1,13 +1,24 @@
+import {
+  Routes,
+  Route,
+  Link,
+  Outlet  
+} from 'react-router-dom';
+
 import Calculator from './components/Calculator';
 import Quote from './components/Quote';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Calculator />
-      <Quote />
-    </div>
+    <Routes>
+      <Route>
+        <div className="App">
+          <Calculator />
+          <Quote />
+        </div>
+      </Route>
+    </Routes>
   );
 }
 
