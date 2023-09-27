@@ -37,16 +37,18 @@ const Quote = () => {
 
   return (
     <>
-      <div id="mid" className="quote">
-        {isLoading ? <div>Loading a Quote...</div> : (
-          <ul>
-            {data.map((item) => (
-              <li key={item.id}>
-                {item.quote}
-              </li>
-            ))}
-          </ul>
-        )}
+      <div className="page">
+        <div id="mid" className="quote">
+          {isLoading ? <div>Loading a Quote...</div> : (
+            <ul>
+              {data.map((item) => (
+                <li key={item.id}>
+                  {item.quote}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
       </div>
     </>
   );
